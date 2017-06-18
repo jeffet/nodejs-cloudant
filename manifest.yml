@@ -4,7 +4,8 @@ declared-services:
     label: cloudantNoSQLDB 
     plan: Lite 
 applications:
-- name: nodejs-cloudant-jtenn
+- name: nodejs-cloudant-jtenn-demo
+  host: node-js-cloudant-jtenn-demo
   random-route: true
   memory: 256M
   services:
